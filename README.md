@@ -1,7 +1,7 @@
 # 方法启动方式
 1.需要下载并解压TA_MER_FOR_CCAC2024.zip压缩包。
 2.需要下载shape_predictor_68_face_landmarks.dat文件，放置到TA_MER/model文件夹下，其链接是: https://pan.baidu.com/s/1V8hyT8kuv3gHjDV7Aug_ig 提取码: nkb6。
-3.运行CCAC_TEST.py文件对CCAC_TEST_B数据集预测，在运行前需要设定B榜测试集的位置，例如：本代码设置为”I:\CCAC\test_data_B\test_data_B“。
+3.运行CCAC_TEST.py文件对CCAC_TEST_B数据集预测，在运行前需要设定B榜测试集的位置，例如：本代码设置为”I:\CCAC\test_data_B\test_data_B“。识别结果会存储到pred_results/prediction.txt文件中。
 
 # 基于局部区域运动时序分析的微表情识别方法
 本方法主要分为两步：第一步，提取特征；第二步，分析特征时序信息并进行分类。
