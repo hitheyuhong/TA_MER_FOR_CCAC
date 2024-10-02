@@ -1,7 +1,7 @@
 # 方法启动方式
 1.需要下载并解压TA_MER_FOR_CCAC2024.zip压缩包。  
 2.需要下载并解压ccac_trian_val.zip压缩包,将其放置在flow_data文件夹下，放置后如：“flow_data/ccac_train_val/sub0003”。   
-3.需要下载shape_predictor_68_face_landmarks.dat文件，放置到TA_MER/model文件夹下，其链接是: https://pan.baidu.com/s/1V8hyT8kuv3gHjDV7Aug_ig 提取码: nkb6。  
+3.需要下载shape_predictor_68_face_landmarks.dat文件，放置到TA_MER/model文件夹下，其链接是: https://pan.baidu.com/s/1oJeOJxwdGnfRnIl-tFPUlw 提取码: yg3e。  
 4.运行CCAC_TEST.py文件对CCAC_TEST_B数据集预测，在运行前需要设定B榜测试集的位置，例如：本代码设置为”I:\CCAC\test_data_B\test_data_B“。识别结果会存储到pred_results/prediction.txt文件中。  
 5.运行CCAC_TRAIN.py文件对CCAC_TRAIN数据集预测，在运行前需要设定训练集的位置。
 
